@@ -1,11 +1,11 @@
-# [lib](https://github.com/kyochou/lib)
+# [jslib](https://github.com/kyochou/jslib)
 [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kyochou/lib/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/kyochou/lib.svg?branch=master)](https://travis-ci.org/kyochou/lib)
-[![Coveralls](https://img.shields.io/coveralls/kyochou/lib.svg)](https://coveralls.io/github/kyochou/lib)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kyochou/jslib/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/kyochou/jslib.svg?branch=master)](https://travis-ci.org/kyochou/jslib)
+[![Coveralls](https://img.shields.io/coveralls/kyochou/lib.svg)](https://coveralls.io/github/kyochou/jslib)
 [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/kyolib)
 [![NPM downloads](http://img.shields.io/npm/dm/lib.svg?style=flat-square)](http://www.npmtrends.com/kyolib)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/kyochou/lib.svg)](http://isitmaintained.com/project/kyochou/lib "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/kyochou/jslib.svg)](http://isitmaintained.com/project/kyochou/jslib "Percentage of issues still open")
 
 最好用的 `JS|TS` 第三方库脚手架
 
@@ -111,7 +111,7 @@ $ npm publish
 
 ## 贡献者列表
 
-[contributors](https://github.com/kyochou/lib/graphs/contributors)
+[contributors](https://github.com/kyochou/jslib/graphs/contributors)
 
 ## :gear: 更新日志
 [CHANGELOG.md](./CHANGELOG.md)
