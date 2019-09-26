@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <script src="../node_modules/es5-shim/es5-shim.js"></script>
-    <script src="../node_modules/es5-shim/es5-sham.js"></script>
-    
-    <script src="../dist/index.aio.js"></script>
-    <script>
-        console.log(window['kyolib'].name);
-    </script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script src="../node_modules/es5-shim/es5-shim.js"></script>
+        <script src="../node_modules/es5-shim/es5-sham.js"></script>
+
+        <script src="../dist/index.aio.js"></script>
+        <script>
+            async function test() {
+                console.log(k_.name)
+                console.log(
+                    await k_.awrap(
+                        new Promise(function(resolve, reject) {
+                            resolve('ok')
+                        }),
+                    ),
+                )
+                console.log(
+                    await k_.awrap(
+                        new Promise(function(resolve, reject) {
+                            reject('error')
+                        }),
+                    ),
+                )
+            }
+            test()
+        </script>
+    </body>
 </html>

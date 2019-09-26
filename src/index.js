@@ -1,14 +1,6 @@
-import { yan } from './test.js';
+export const name = 'kyo'
 
-import yan2 from './test.js';
-
-console.log(yan);
-console.log(yan2);
-
-var a = 1 + 1;
-var b = a;
-console.log(a);
-console.log(b);
-
-export const name = 'base';
-
+// 抽离成公共方法
+export const awrap = promise => {
+    return promise.then(data => [data, null]).catch(err => [null, err])
+}
