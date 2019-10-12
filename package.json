@@ -32,6 +32,7 @@
     "/dist"
   ],
   "devDependencies": {
+    "@js-lib/cli": "^1.4.2",
     "@babel/cli": "7.1.5",
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-runtime": "^7.1.0",
